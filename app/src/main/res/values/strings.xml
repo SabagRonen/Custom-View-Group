@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Custom View Group</string>
+    <string name="avatar">avatar</string>
+    <string name="more_options">more options</string>
+    <string name="short_name">Ronen</string>
+    <string name="plus_one_rider">+1</string>
+    <string name="long_name">Really Really Really long long long long name</string>
+    <string name="simple_linear_layout">Simple Linear Layout</string>
+    <string name="linear_with_space">Linear With Space</string>
+    <string name="linear_with_weight">linear with weight</string>
+    <string name="simple_relative_layout">Simple Relative Layout</string>
+    <string name="relative_with_linear">Relative With Linear</string>
+    <string name="relative_with_inner_linear">Relative With Inner Linear</string>
+    <string name="custom_view_group">Custom View Group</string>
+</resources>

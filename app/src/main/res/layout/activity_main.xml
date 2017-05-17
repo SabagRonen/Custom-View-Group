@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ronensabag.customviewgroup.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layouts_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/simple_linear_layout"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/simple_linear"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/linear_with_space"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/space_linear"/>
+
+        <include layout="@layout/space_linear"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/linear_with_weight"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/weight_linear"/>
+
+        <include layout="@layout/weight_linear"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/simple_relative_layout"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/simple_relative"/>
+
+        <include layout="@layout/simple_relative"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/relative_with_linear"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/relative_with_linear"/>
+
+        <include layout="@layout/relative_with_linear"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/relative_with_inner_linear"
+            android:textStyle="bold"/>
+
+        <include layout="@layout/relative_with_inner_linear"/>
+
+        <include layout="@layout/relative_with_inner_linear"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/custom_view_group"
+            android:textStyle="bold"/>
+
+        <com.example.ronensabag.customviewgroup.CustomViewGroup
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <com.example.ronensabag.customviewgroup.CustomViewGroup
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+
+</ScrollView>
